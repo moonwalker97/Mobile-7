@@ -1144,7 +1144,9 @@ p {
   .container {
     width: 100%;
   }
-  
+  .address-list {
+    display: none;
+  }
 }
 @media screen and (min-width: 428px) {
   .container {
