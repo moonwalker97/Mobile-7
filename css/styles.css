@@ -1249,21 +1249,16 @@ p {
   }
   .footer-container {
     display: flex;
-    width: 582px;
     flex-direction: row;
     justify-content: start;
     flex-wrap: wrap;
-    gap: 72px;
+    column-gap: 24px;
+    row-gap: 72px;
   }
   .footer-logo-container {
     width: 264px;
     flex-direction: row;
     gap: 24px;
-  }
-
-  .footer-soc-container {
-    margin-left: 24px;
-    width: 208px;
   }
   .footer-subscribe {
     width: 453px;
@@ -1496,6 +1491,12 @@ p {
   letter-spacing: 0.02em;
   color: var(--footer-text-color);
   margin: 0;
+}
+}
+
+@media screen and (max-width: 767px) {
+.hero-title {
+    text-transform: capitalize;
 }
 }
 @media screen and (max-width: 1199px) {
